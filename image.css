@@ -1,0 +1,42 @@
+.image1{
+    float:none;
+    border: solid 10px;
+    border-width: 10px;
+    border-color:;
+    background-color: aqua,black,yellow,red;
+}
+
+
+@-webkit-keyframes bouge{
+    0%{td></td>
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(450px) translatey(40°) ;
+    }
+}
+@keyframes bouge{
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(450px) translatey(40°);
+    }
+}
+table
+{
+    -webkit-animation:bouge 5s;
+    animation:bouge 5s;
+
+
+
+}
+
